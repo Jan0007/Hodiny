@@ -1,16 +1,7 @@
-public class Hodina1 implements Runnable {
+public class Hodina1{
     public static void main(String[] args) {
         Jedinacek jedin = Jedinacek.getInstance();
-        Thread thread = new Thread();
-
-
-        System.out.println(jedin.getState());
+        JedinacekVlakno thread = new JedinacekVlakno(jedin);
         thread.start();
-        System.out.println(jedin.getState());
-    }
-
-    @Override
-    public void run() {
-        System.out.println("why are you runnin");
     }
 }

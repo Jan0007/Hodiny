@@ -18,4 +18,11 @@ public class Jedinacek {
     public void setState(String s) {
         this.state = s;
     }
+
+    @Override
+    public String toString() {
+        return "Jedinacek{" +
+                "state='" + state + '\'' +
+                '}';
+    }
 }
