@@ -1,16 +1,12 @@
 public class JedinacekVlakno extends Thread{
-    Jedinacek jedin;
-
-    public JedinacekVlakno(Jedinacek jedin) {
-        this.jedin = jedin;
-    }
 
     @Override
     public void run() {
+        Jedinacek j = Jedinacek.getInstance();
         while(true) {
-            System.out.println(jedin.getState());
+            System.out.println(j.getState());
             try {
-                Thread.sleep(1000);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
