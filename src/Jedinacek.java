@@ -39,9 +39,13 @@ public class Jedinacek {
     }
 
     public static void saveConfig(String s) throws IOException {
-        FileWriter myWriter = new FileWriter("C:\\Users\\2021-e-sevcik\\IdeaProjects\\Hodiny\\myapp.cfg");
-        myWriter.write(s);
-        myWriter.close();
+        try {
+            FileWriter myWriter = new FileWriter("C:\\Users\\2021-e-sevcik\\IdeaProjects\\Hodiny\\myapp.cfg");
+            myWriter.write(s);
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("something is wrong (probably file path) anyway here is the error" + e);
+        }
     }
 
     @Override
