@@ -1,3 +1,5 @@
+package Hodina2;
+
 public class DvojCislo {
     private int prvni;
     private int druhy;

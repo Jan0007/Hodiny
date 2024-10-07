@@ -1,3 +1,5 @@
+package pisemka1;
+
 import java.util.Scanner;
 
 public class pisemka1 {

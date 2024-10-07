@@ -1,3 +1,5 @@
+package Hodina1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -50,7 +52,7 @@ public class jedinacek_hodina {
 
     @Override
     public String toString() {
-        return "Jedinacek{" +
+        return "pisemka1.Jedinacek{" +
                 "state='" + state + '\'' +
                 '}';
     }

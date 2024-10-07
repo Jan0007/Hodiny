@@ -1,3 +1,5 @@
+package Hodina2;
+
 public class CCislo {
     private final double r;
     private final double i;
@@ -27,7 +29,7 @@ public class CCislo {
 
     @Override
     public String toString() {
-        return "CCislo{" +
+        return "Hodina2.CCislo{" +
                 "r=" + r +
                 ", i=" + i +
                 '}';

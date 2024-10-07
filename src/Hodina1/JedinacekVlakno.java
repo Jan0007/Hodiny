@@ -1,3 +1,5 @@
+package Hodina1;
+
 public class JedinacekVlakno extends Thread{
 
     @Override

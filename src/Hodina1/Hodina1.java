@@ -1,3 +1,5 @@
+package Hodina1;
+
 import java.io.IOException;
 
 public class Hodina1{

@@ -1,3 +1,5 @@
+package pisemka1;
+
 public class Jedinacek {
 
     private static Jedinacek singletonInstance;

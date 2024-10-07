@@ -1,3 +1,5 @@
+package pisemka1;
+
 public class UkolB {
     public UkolB(int n) {
         for(int i = n; i > 0; i = i/2) {

@@ -1,3 +1,5 @@
+package pisemka1;
+
 import java.math.BigInteger;
 
 public class UkolA {
