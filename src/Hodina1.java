@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class Hodina1{
     public static void main(String[] args) throws InterruptedException, IOException {
-        Jedinacek jedin = Jedinacek.getInstance();
+        jedinacek_hodina jedin = jedinacek_hodina.getInstance();
         JedinacekVlakno thread = new JedinacekVlakno();
 
         thread.start();
