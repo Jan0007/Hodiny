@@ -1,8 +1,8 @@
 public class MujIterator {
     int pozice = 0;
-    PostihIterator iterator;
+    Trojice iterator;
 
-    public MujIterator(PostihIterator it) {
+    public MujIterator(Trojice it) {
         this.iterator = it;
     }
 
