@@ -1,3 +1,5 @@
+package Hodina4;
+
 public class MujIterator {
     int pozice = 0;
     Trojice iterator;

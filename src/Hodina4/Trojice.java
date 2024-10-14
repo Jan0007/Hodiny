@@ -1,3 +1,5 @@
+package Hodina4;
+
 public class Trojice {
     int a, b, c;
     int index = 0;

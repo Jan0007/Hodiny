@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package Hodina4;
 
 public class MyIterator {
     int seznam[] = {1, 2, 3, 4, 5};
