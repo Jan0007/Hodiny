@@ -7,7 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Tovarna tovarna = new Tovarna();
+        DobraTovarna tovarna = new DobraTovarna();
+        HamNamTovarna t = new HamNamTovarna();
+        Jidlo u = t.vyrobJidlo("spekacek");
+
+        System.out.println(u.dejCenu());
 
         ArrayList<Jidlo> arr = new ArrayList<>();
 
