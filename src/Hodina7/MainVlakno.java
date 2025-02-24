@@ -5,20 +5,14 @@ public class MainVlakno {
         MojeVlakno t2 = new MojeVlakno();
         Thread tr2 = new Thread(t2);
 
-        Runnable v1 = new Runnable() {
-            @Override
-            public void run() {
-                for (int i = 'a'; i <= 'l'; i++) {
-                    System.out.println(i);
-                }
+        Runnable v1 = () -> {
+            for (int i = 'a'; i <= 'l'; i++) {
+                System.out.println(i);
             }
         };
-        Runnable v2 = new Runnable() {
-            @Override
-            public void run() {
-                for (int i = -1; i > -100; i--) {
-                    System.out.println(i);
-                }
+        Runnable v2 = () -> {
+            for (int i = -1; i > -100; i--) {
+                System.out.println(i);
             }
         };
         Thread u = new Thread( () -> {
